@@ -47,7 +47,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   Beltah-md-stickers-dl
+      let msg = `   smartpopkid-md-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "Beltah-md",
+            author: "Smartpopkid-md",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -487,7 +487,7 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
   
           let stickerMess = new Sticker(media, {
-            pack: 'BELTAH-MD-TAG',
+            pack: 'SMARTPOPKID-MD-TAG',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",
@@ -525,7 +525,7 @@ zokou({
 
  const {ms , repondre ,superUser , arg} = commandeOptions ;
 
- if (!superUser) {repondre('you do not have the rights for this command') ; return}
+ if (!superUser) {repondre('you do not have the rights for this command😂😂') ; return}
 
  const mbdd = require('../bdd/mention') ;
 
@@ -539,7 +539,7 @@ zokou({
 
   if (alldata.length === 0 ) { repondre(`To activate or modify the mention; follow this syntax: mention link type message
   The different types are audio, video, image, and sticker.
-  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Beltah`) ; return}
+  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Popkid`) ; return}
 
       if(data.status == 'non') {
           etat = 'Desactived'
@@ -560,7 +560,7 @@ Link: ${url}
 
 To activate or modify the mention, follow this syntax: mention link type message
 The different types are audio, video, image, and sticker.
-Example: mention https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg image Hi, my name is Beltah
+Example: mention https://telegra.ph/file/cfa5d02b014d15e15ed3c.jpg image Hi, my name is Popkidl
 
 To stop the mention, use mention stop`;
 
