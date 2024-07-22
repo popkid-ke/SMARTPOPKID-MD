@@ -1,9 +1,9 @@
 {
-  "name":"BELTAH-MD-V7",
-  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.Make sure you fill all valuables accordingly. ",
+  "name":"SMARTPOPKID-MD-V7",
+  "description":"Deploy now your POPKID bot, SMARTPOPKID-MD was developed by Popkid.Make sure you fill all valuables accordingly. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-  "repository":"https://github.com/DEVbeltah/V7-beltah",
+  "logo":"https://telegra.ph/file/cfa5d02b014d15e15ed3c.jpg",
+  "repository":"https://github.com/popkid-ke/SMARTPOPKID-MD ",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
+      "value":"SMARTPOPKID-MD ",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+      "value":"https://telegra.ph/file/cfa5d02b014d15e15ed3c.jpg",
       "required":false
        
      },
@@ -83,7 +83,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254114141192"
+    "value": "254111385747 "
   },
     "WARN_COUNT":
   {
