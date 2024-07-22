@@ -44,8 +44,8 @@ const date = moment().format('DD/MM/YYYY');
 │❒⁠⁠⁠⁠│▸ *RAM* : 450GB
 │❒⁠⁠⁠╚═══════════╝
 ╚════ ▓▓ ࿇ ▓▓ ═════╝
-> *BELTAH-MD-V7 LITE VERSION*
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇\n${readmore}`;
+> *POPKID-MD-V7 LITE VERSION*
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 POPKID 𝐓𝐄𝐂𝐇\n${readmore}`;
     
 let menuMsg = `
 > MENU successfully Requested by ${nomAuteurMessage} 
