@@ -36,7 +36,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╔═══★★ ${s.BOT} ★★════╗
 ┴ ╭─────────────⬡
-│❒│ *OWNER* : Beltah Tech🇰🇪
+│❒│ *OWNER* : Popkid Tech🇰🇪
 │❒│ *USER* : ${nomAuteurMessage} 
 │❒╰─────────────✇
 │❒⁠⁠⁠⁠╭─────────────®
@@ -47,14 +47,14 @@ const date = moment().format('DD/MM/YYYY');
 │❒⁠⁠⁠⁠│⁠⁠⁠ *MODE* : ${mode} mode
 │❒│⁠⁠⁠⁠ *PLUGINS* : ${cm.length} 
 ┬ ╚════════════════╝
-╚════·▸ *💰LIKE A BOSS💰* ══╝ 
+╚════·▸ *💰POP KID YOUR GEE💰* ══╝ 
 
-> *BELTAH-MD-V7 LITE VERSION*
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇\n${readmore}`;
+> *SMARTPOPKID-MD-V7 LITE VERSION*
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 SMARTPOPKID 𝐓𝐄𝐂𝐇\n${readmore}`;
     
 let menuMsg = `
 ╔════ ▓▓ ࿇ ▓▓ ════╗
-  *BELTAH-MD-V7 COMMANDS*
+  *SMARTPOPKID-MD-V7 COMMANDS*
 `;
 
     for (const cat in coms) {
@@ -69,7 +69,7 @@ let menuMsg = `
     menuMsg += `
 ╭─────────────⬡
 > |⏣THANK YOU FOR CHOOSING 
-> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕7 𝐋𝐀𝐓𝐄𝐒𝐓
+> SMARTPOPKID-𝐌𝐃 𝐕7 𝐋𝐀𝐓𝐄𝐒𝐓
 ╚═════ ▓▓ ࿇ ▓▓ ═════╝
 `;
 
