@@ -35,7 +35,7 @@ const date = moment().format('DD/MM/YYYY');
 ╔═══★★│ ${s.BOT} │★★════╗
 ★╔═══════════
 ★│▸ *Owner* : ${s.OWNER_NAME}
-★│▸ *Creator* :Beltah Tech
+★│▸ *Creator* :Popkid Tech
 ★╚══════════════╝
 ★╔═══════════
 ★│▸ *Scene Mode* : ${mode} mode
@@ -44,14 +44,14 @@ const date = moment().format('DD/MM/YYYY');
 ★│▸ *Time* : ${temps}
 ★│▸ *Memory* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ★│▸ *Platform* : ${os.platform()}
-★│▸ *Theme* : *SCENE-MD*
+★│▸ *Theme* : *SMARTPOPKID-MD*
 ★╚══════════════╝
 ╚══════ ▓▓ ࿇ ▓▓ ══════╝
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 POPKID 𝐓𝐄𝐂𝐇
 ${readmore}\n`;
     
 let menuMsg = `
-╔════ ▓ *SCENE-MD BOT* ▓ ════╗
+╔════ ▓ *SMARTPOPKID-MD BOT* ▓ ════╗
 `;
 
     for (const cat in coms) {
@@ -69,7 +69,7 @@ let menuMsg = `
 
     menuMsg += `
 ╔═══════
-> *SCENE-MD BOT* © 𝐁𝐞𝐥𝐭𝐚𝐡 𝐓𝐞𝐜𝐡 𝟐𝟓𝟒🇰🇪
+> *SMARTPOPKID-MD BOT* © POPKID TECH 𝟐𝟓𝟒🇰🇪
 ╚═════ ▓▓ ࿇ ▓▓ ═════╝`;
 
    var lien = mybotpic();
