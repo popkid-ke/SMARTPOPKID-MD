@@ -50,7 +50,7 @@
  ## CONTACT DEVELOPER ON WHATSAPP 
  
 <a href="https://wa.me/254111385747 " target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Beltah Tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ POPKID Tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a> 
 </p>
 
