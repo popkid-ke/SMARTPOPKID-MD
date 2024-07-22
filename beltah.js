@@ -167,7 +167,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{Beltah-Md}...[][]");
+            console.log("\t [][]...{Popkid-Md}...[][]");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -430,7 +430,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Beltah-Md',
+                                        pack: 'Popkid-Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -471,7 +471,7 @@ function mybotpic() {
                             let warn = await getWarnCountByJID(auteurMessage) ; 
                             let warnlimit = conf.WARN_COUNT
                          if ( warn >= warnlimit) { 
-                          var kikmsg = `𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 detected a link!! , you will be remove because of reaching warn-limit`;
+                          var kikmsg = `SMARTPOPKID-MD 𝐕𝟒.𝟎.𝟎 detected a link!! , you will be remove because of reaching warn-limit`;
                             
                              await zk.sendMessage(origineMessage, { text: kikmsg , mentions: [auteurMessage] }, { quoted: ms }) ;
 
@@ -482,7 +482,7 @@ function mybotpic() {
 
                             } else {
                                 var rest = warnlimit - warn ;
-                              var  msg = `𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 detected a link!! , your warn_count was upgrade ;\n rest : ${rest} `;
+                              var  msg = `SMARTPOPKID-MD 𝐕𝟒.𝟎.𝟎 detected a link!! , your warn_count was upgrade ;\n rest : ${rest} `;
 
                               await ajouterUtilisateurAvecWarnCount(auteurMessage)
 
@@ -524,11 +524,11 @@ function mybotpic() {
                 id: ms.key.id,
                 participant: auteurMessage
             };
-            var txt = "𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 detected a weak bot!!, \n";
+            var txt = "SMARTPOPKID-MD 𝐕𝟒.𝟎.𝟎 detected a weak bot!!, \n";
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Beltah-Md',
+                pack: 'Popkid-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -612,7 +612,7 @@ function mybotpic() {
                          /******************* PM_PERMT***************/
 
             if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
-                repondre("Sorry!!!You don't have acces to commands here, ask Beltah or the owner to help you.") ; return }
+                repondre("Sorry!!!You don't have acces to commands here, ask Popkid or the owner to help you.") ; return }
             ///////////////////////////////
 
              
@@ -806,22 +806,22 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Beltah is connecting...");
+                console.log("ℹ️ Popkid is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Beltah Connected to WhatsApp! ☺️");
+                console.log("✅ Popkid Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Beltah Md is Online 🕸\n\n");
+                console.log("Smartpopkid Md is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Beltah Commands ...\n");
-                fs.readdirSync(__dirname + "/beltah").forEach((fichier) => {
+                console.log("Loading smartpop Commands ...\n");
+                fs.readdirSync(__dirname + "/popkid").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/beltah/" + fichier);
+                            require(__dirname + "/popkid/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
@@ -848,14 +848,14 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`*BELTAH-MD-V7 HAS STARTED...*
+                let cmsg =`*SMARTPOPKID-MD-V7 HAS STARTED...*
  
    Prefix : [ ${prefixe} ]   
    MODE : ${md} mode
    Plugins : 245
-   Owner  : Beltah Tech 254 🇰🇪
+   Owner  : Popkid Tech 254 🇰🇪
 
-> Thank you for loving BELTAH-MD.`;
+> Thank you for loving POPKID-MD.`;
 
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
