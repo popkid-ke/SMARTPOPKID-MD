@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *BELTAH_MD version 2.0*`
+ *SMARTPOPKID_MD version 2.0*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *BELTAH-MD BOT* is alive just like you gee. ')
+repondre(' Holla🥴, *SMARTPOPKID-MD BOT* is alive just like you gee. ')
 
 }
     });
