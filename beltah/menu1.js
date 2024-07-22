@@ -36,7 +36,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╔════ ▓ ${s.BOT} ▓ ═════╗            
 │▓╔══════════════╗
-│▓│▸ *OWNER* : BELTAH TECH 
+│▓│▸ *OWNER* : POPKID TECH 
 │▓│▸ *USER* : ${nomAuteurMessage} 
 │▓╚══════════════╝
 │▓╔══════════════╗
@@ -46,8 +46,8 @@ const date = moment().format('DD/MM/YYYY');
 │▓│▸ *COMMANDS* : 245
 │▓╚══════════════╝
 ╚══════ ▓▓ ࿇ ▓▓ ═══════╝
-> BELTAH-MD-V7 lite version
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇\n${readmore}`;
+> SMARTPOPKID-MD-V7 lite version
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 POPKID 𝐓𝐄𝐂𝐇\n${readmore}`;
     
 let menuMsg = `
 ╔════ ▓▓ ࿇ ▓▓ ════╗
@@ -67,7 +67,7 @@ let menuMsg = `
 
     menuMsg += `
     ╔════════╗
-    > 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃
+    > SMARTPOPKID-𝐌𝐃
     ╚═════ ▓▓ ࿇ ▓▓ ═════╝
 `;
 
@@ -75,7 +75,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *SMARTPOPKID-MD*, déveloper smartpopkid Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
