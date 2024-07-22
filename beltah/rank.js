@@ -210,7 +210,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ Beltah rank┗━━━┓
+┏━━━┛ Smartpopkid rank┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -251,7 +251,7 @@ zokou( {
     const {ms , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ beltah-top-rang ┗━━┓\n\n`
+       let msg = `┏━━┛ Smartpopkid-top-rang ┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
